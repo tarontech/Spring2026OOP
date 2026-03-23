@@ -43,8 +43,10 @@ public class HelloWorldSwing {
             System.out.println("Letter: " + values.charAt(i));
             System.out.println("Index: " + i);
         }
+       
 
         //Add the ubiquitous "Hello World" label.
+       // TextArea textArea = new TextArea("Text Here", 5, 40);
         JTextArea textArea = new JTextArea(textOut, 30,50);
         textArea.setEditable(false);
         
