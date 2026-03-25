@@ -42,6 +42,7 @@ public class LotteryGame1 {
         Random rv2 = new Random(selectionBound);
         rv2.setSeed(seed.nextInt(100000));
         
+        
         for(int i = 0; i < 4; i++){
             take3[i] = rv2.nextInt(selectionBound) + 1;
             System.out.print(take3[i] + " ");
@@ -51,6 +52,7 @@ public class LotteryGame1 {
         Random rv3 = new Random(selectionBound);
         rv3.setSeed(seed.nextInt(100000));
         
+        
         for(int i = 0; i < 5; i++){
             take4[i] = rv3.nextInt(selectionBound) + 1;
             System.out.print(take4[i] + " ");
@@ -59,6 +61,8 @@ public class LotteryGame1 {
         
         Random rv4 = new Random(selectionBound);
         rv4.setSeed(seed.nextInt(100000));
+        
+        
         
         for(int i = 0; i < 6; i++){
             take5[i] = rv4.nextInt(selectionBound) + 1;
